@@ -1,0 +1,11 @@
+<map>
+	<room>
+		<name>Entrance</name>
+		<description>Test</description>
+		<border>
+			<direction>north</direction>
+			<name>MainCavern</name>
+		</border>
+	</room>
+	<room>
+</map>
