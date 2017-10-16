@@ -4,14 +4,17 @@
 
 class Room {
 public:
-	std::string Name, Status, Type, Description;
-	//Container* container;
-	//Item* item;
-	//Creature* creature;
-	//Trigger* trigger;
+	char* Name;
+	char* Status;
+	char* Type;
+	char* Description;
+	Room* Border[4]; //Border[0] = north, Border[1] = east, Border[2] = south, Border[3] = west
+	//Container** roomContainer;
+	//Item** roomItem;
+	//Creature** roomCreature;
+	//Trigger** roomTrigger;
 	Room();
 	virtual ~Room();
-	Room(std::string, std::string, std::string, std::string);
 
 };
 

@@ -39,7 +39,7 @@ void genBorderNode(BorderNode* newNode, BorderNode* prev, std::string direction)
 		newNode -> West = NULL;	
 	}
 	else {
-		ccout << "Error in genBorderNode" << endl;
+		std::cout << "Error in genBorderNode" << std::endl;
 	}
 	return;
 }
